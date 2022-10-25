@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+}
+.main{  
+    font-family:sans-serif;
+}
+.navbar{
+    background-color: white;
+    max-width: 100%;
+    max-height: 100%;
+}
+.navbar-content{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: end;
+}
+.navbar-content svg{
+    border: 0px solid none;
+    border-radius: 30px;
+    padding: 5px;
+}
+.navbar-content svg:hover{
+    background-color: #d8d9dc;
+}
+.navbar-content>*{
+    margin: 10px;
+}
+.avatar{
+    border: 0px solid none;
+    border-radius: 30px;
+}
+.navbar-logo{
+    padding-bottom: 30px;
+}
+.navbar-logo img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 93px;
+    margin: auto;
+}
+.navbar-search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    border: 1px solid #dfe1e5;
+    border-radius: 40px;
+    padding: 2px 10px 2px 10px;
+    width: 584px;
+    height: 44px;
+}
+.navbar-search input{
+    font-size: 20px;
+    max-width: max-content;
+    all: unset;
+}
+.navbar-search-left{
+    display: flex;
+}
+.navbar-search-right{
+    display: flex;
+    align-items: center;
+}
+.navbar-search-left>*,
+.navbar-search-right>*{
+    margin: 10px;
+}
+.navbar-document-top{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.navbar-document-top>*{
+    margin: 10px;
+}
+.navbar-document-top-left,
+.navbar-document-top-right{
+    border: 1px solid none;
+    border-radius: 5px;
+    padding: 8px 10px 8px 10px;
+}
+.navbar-document-top-left:hover,
+.navbar-document-top-right:hover{
+    background-color: #dfe1e5;
+}
+.navbar-document-bottom{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 14px;
+}
+.navbar-document-bottom-right{
+    display: flex;
+    color: #1a0dab;
+    align-items: center;
+}
+.navbar-document-bottom-right>*{
+    margin-left: 10px;
+}
+.footer{
+    background-color: #f2f2f2;
+    width: 100%;
+}
+.footer-top{
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+}
+.footer-bottom{
+    display: flex;
+    font-size: 15ps;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    justify-content: space-between;
+}
+.footer-bottom-1{
+    display: flex;
+}
+.footer-bottom-1>*{
+    margin-left: 30px;
+}
+.footer-bottom-2{
+    display: flex;
+}
+.footer-bottom-2>*{
+    margin-right: 30px;
+}
